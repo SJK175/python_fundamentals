@@ -32,4 +32,25 @@ elif not our_employee and income >1000000 and credit_score >650 and not cri_rec:
 else :
     print("loan not approved")
 
+    
+    
+    
+#ask users to provide the weight in KG or Lbs
+#convert the input to the other unit (eg. Lbs to KG or vice versa)
+#01kg = 2.205lbs
+
+w = input("what is your weight in numeric value? :" )
+u = input("unit? kg/lbs? :")
+c = 2.205
+if u.upper() == "KG":
+    w1 = float(w)*c
+    print(f"your weight is {round(w1,2)} lbs")
+elif u.upper() == "LBS":
+    w1 = float(w)*(1/c)
+    print(f"your weight is {round(w1,2)} kg")
+else :
+    print("pls check your input")
+
+
+
 
