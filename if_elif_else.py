@@ -12,9 +12,6 @@ else:
     dp = price*0.2
 print(f"downpayment amount ${dp}")
 
-
-
-
 #approve the loan if he's our employee & income > 7lacks -else,
 #approve the lone if the yearly income is more than 10lacks
 #and credit score is more than 650
@@ -32,9 +29,6 @@ elif not our_employee and income >1000000 and credit_score >650 and not cri_rec:
 else :
     print("loan not approved")
 
-    
-    
-    
 #ask users to provide the weight in KG or Lbs
 #convert the input to the other unit (eg. Lbs to KG or vice versa)
 #01kg = 2.205lbs
