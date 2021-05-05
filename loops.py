@@ -43,3 +43,12 @@ matrix = [[1,2,3],
 for row in matrix:
     for item in row:
         print(item)
+
+        
+# write a program to remove duplicates in a list
+L = [2,3,4,5,4]
+L1= []
+for i in L:
+    if i not in L1:
+        L1.append(i)
+print(L1)
