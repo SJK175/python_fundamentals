@@ -14,3 +14,17 @@ while guess_counter < guess_limit:
 
 else :
     print ("you failed to guess the number!")
+    
+
+# for loop
+# calculate total value of cart items & print the
+# total value after giving 10% discount
+
+cart = [100, 150, 200, 50]
+bill = 0
+discount = 0.1
+for item in cart :
+    bill = bill + item
+print(f"total bill : {bill-bill*discount}" )
+
+
